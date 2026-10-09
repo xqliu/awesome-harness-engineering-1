@@ -243,6 +243,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Agent AFK](https://github.com/griffinwork40/agent-afk) - Headless coding-agent harness for asynchronous runs with explicit terminal states, editable lifecycle hooks, permission gates, model routing, and append-only traces.
 - [completely](https://github.com/23ag1/completely) - Claude Code plugin harness with a default-fail evaluator, deterministic write and close gates, orphan recovery, and parallel-worker integration checks.
 - [forge-harness](https://github.com/chrono-meta/forge-harness) - Claude Code plugin for adversarial validation, source-grounding audits, session-learning capture, and pre-deployment transfer simulation.
+- [Orbi](https://github.com/orbi-build/orbi) - Issue-driven harness on top of the Pi coding agent: each labelled GitHub issue runs in an isolated worktree, a separate review session must pass the exact commit before it merges, and all run state lives in issues, labels and PRs so a restart resumes the same run.
 
 ### Multi-Agent Orchestration
 
